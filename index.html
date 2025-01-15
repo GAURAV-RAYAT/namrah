@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+	<!-- Basic Page Needs -->
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<title>Namrah Management | Home</title>
+	<meta name="author" content="">
+	<style>
+		.rev-slidebg{
+			filter:brightness(-50%) !important;
+		}
+	</style>
+
+	<!-- Boostrap style -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.css">
+
+	<!-- REVOLUTION LAYERS STYLES -->
+	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+
+	<!-- Theme style -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+
+	<!-- Colors -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors">
+
+	<!-- Reponsive -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
+
+	<!-- Animation Style -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/animate.css">
+
+	<!-- Favicon and touch icons  -->
+	<link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed">
+	<link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+	<link href="icon/favicon.png" rel="shortcut icon">
+
+	<!-- IMAGE BRIGHTNESS -->
+	<style>
+		#slide1{
+			filter: brightness(50%) !important; 
+		}
+	</style>
+
+
+	<!-- Snackbar (Initial Popup) -->
+	<style>
+		#snackbar {
+			visibility: hidden;
+			min-width: 250px;
+			margin-left: -125px;
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			border-radius: 2px;
+			padding: 16px;
+			position: fixed;
+			z-index: 1;
+			left: 50%;
+			bottom: 30px;
+			font-size: 17px;
+		}
+
+		#snackbar.show {
+			visibility: visible;
+			-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+			animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+
+		@-webkit-keyframes fadein {
+			from {
+				bottom: 0;
+				opacity: 0;
+			}
+
+			to {
+				bottom: 30px;
+				opacity: 1;
+			}
+		}
+
+		@keyframes fadein {
+			from {
+				bottom: 0;
+				opacity: 0;
+			}
+
+			to {
+				bottom: 30px;
+				opacity: 1;
+			}
+		}
+
+		@-webkit-keyframes fadeout {
+			from {
+				bottom: 30px;
+				opacity: 1;
+			}
+
+			to {
+				bottom: 0;
+				opacity: 0;
+			}
+		}
+
+		@keyframes fadeout {
+			from {
+				bottom: 30px;
+				opacity: 1;
+			}
+
+			to {
+				bottom: 0;
+				opacity: 0;
+			}
+		}
+	</style>
+
+	<!-- Designed Scrollbar -->
+	<style>
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background-color: #020091;
+			border-radius: 30px;
+		}
+	</style>
+
+	<!-- onine css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color: rgb(211, 243, 243);">
+	<!-- <div class="loader"></div> -->
+	<!-- <div class="se-pre-con"></div> -->
+
+	<!-- Initial Popup down -->
+	<div id="snackbar">Welcome To Namrah Security Management</div>
+
+	<div class="boxed">
+
+		<!-- TOP bar -->
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="flat-infomation">
+							<li class="phone">Call us: <a href="tel:01141064637" title="phone">011 41064637</a></li>
+							<li class="email">Email: <a href="mailto:support@namrah.in"
+									title="email">support@namrah.in</a></li>
+						</ul><!-- /flat-infomation -->
+						<div class="flat-questions">
+							<a href="contact-us.html" title="" class="questions">Have any questions?</a>
+							<a href="contact-us.html" title="" class="appointment">GET AN APPOINTMENT</a>
+						</div><!-- /.flat-questions -->
+						<div class="clearfix"></div><!-- /.clearfix -->
+					</div>
+				</div>
+			</div>
+		</div><!-- /.top -->
+
+		<!-- Header Starts -->
+		<header id="header" class="header bg-color">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div id="logo" class="logo">
+							<a href="index.html" title="">
+								<img src="images/logo-blog.png" alt="logo Namrah Security Management">
+							</a>
+						</div><!-- /#logo -->
+					</div><!-- /.col-md-2 -->
+					<div class="header-wrap">
+						<div class="nav-wrap">
+							<div class="btn-menu">
+								<span></span>
+							</div><!-- //mobile menu button -->
+							<nav id="mainnav" class="mainnav">
+								<ul class="menu">
+									<li>
+										<a href="index.html" title="">Home <i class="" aria-hidden="true"></i></a>
+									</li>
+									<li>
+										<a href="about-us.html" title="">About <i class="" aria-hidden="true"></i></a>
+									</li>
+									<li>
+										<a href="certificate.html" title="">Certificates <i class="fa fa-angle-down"
+												aria-hidden="true"></i></a>
+										<ul class="sub-menu">
+											<li><a href="/documents/GST.pdf" title="" target="_blank">GST Registration Certificate</a></li>
+											<li><a href="/documents/REGISTRATION.pdf" title="" target="_blank">Registration Certificate</a>
+											<li><a href="/documents/PSARA.jpeg" title="" target="_blank">PSARA</a></li>
+										</ul><!-- /.sub-menu -->
+									</li>
+									<li>
+										<a href="services.html" title="">Services <i class="fa fa-angle-down"
+												aria-hidden="true"></i></a>
+										<ul class="sub-menu">
+											<li><a href="security_gaurd.html" title="">Security Gaurds</a></li>
+											<li><a href="bank_atm_security.html" title="">BANK/ATM Security</a></li>
+										</ul><!-- /.sub-menu -->
+									<li>
+										<a href="Consultancy.html" title="">Consultancy <i class="fa fa-angle-down"
+												aria-hidden="true"></i></a>
+										<ul class="sub-menu">
+											<li><a href="Home-Management-Security.html" title="">Home Management
+													Security</a></li>
+											<li><a href="Home-office-Keeping-Service.html" title="">Home/Office Keeping
+													Service</a>
+											<li><a href="Industry-Security.html" title="">Industry Security</a></li>
+										</ul><!-- /.sub-menu -->
+									</li>
+									<li>
+										<a href="contact-us.html" title="">Contact Us <i class=""
+												aria-hidden="true"></i></a>
+									</li>
+								</ul><!-- /.menu -->
+							</nav><!-- /#mainnav -->
+						</div><!-- /.nav-wrap -->
+					</div><!-- /.col-md-9 -->
+				</div><!-- /.header-wrap -->
+			</div><!-- /.row -->
+			<div class="container">
+				<!-- Moving Marquee -->
+				<marquee onmouseover="this.stop()" onmouseout="this.start()">
+					<a href="services.html" style="font-size:20px; color:#000;" onhover=stop()><b
+							style="color: rgba(5, 3, 114, 0.89);">Deals in - Industrial Security |
+							Security Gaurds | BANK & ATM Security
+							| Security Training | Home & Office Keeping Service | And Many More :)</b></a>
+				</marquee>
+			</div>
+	</div><!-- /.container -->
+	</header><!-- /header -->
+
+
+	<!-- START REVOLUTION SLIDER 5.4.2 auto mode -->
+	<!-- Animation -->
+	<div id="banner-container" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export"
+		data-source="gallery"
+		style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+		<!-- START REVOLUTION SLIDER 5.3.0.2 auto mode -->
+		<div id="banner-slide" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
+			<div class="slotholder"></div>
+
+
+			<ul>
+
+				<li data-index="rs-3051" data-transition="slideremovedown" data-slotamount="7" data-hideafterloop="0"
+					data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+					data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Ken Burns"
+					data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+					data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+					<!-- MAIN IMAGE -->
+					<img src="images/slides/slide3.jpg" alt="" data-bgposition="center center" data-kenburns="off"
+						data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+						data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
+						data-bgparallax="10" class="rev-slidebg" data-no-retina style="filter: brightness(0%) !important;">
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 12 -->
+					<div class="tp-caption title-slide color-white letter-spacing3px" id="slide-3049-layer-1"
+						data-x="['left','left','left','left']" data-hoffset="['39','39','39','39']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['-105','-77','-77','-77']"
+						data-fontsize="['55','52','45','35']" data-lineheight="['60','57','50','40']"
+						data-fontweight="['600','600','600','600']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[10,10,10,10]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]"
+						style="z-index: 16; white-space: nowrap;text-transform:left;">We Provide <span style="color:orange;">Verified & <br> Secured</span> Service for company
+					</div>
+
+					<!-- LAYER NR. 13 -->
+					<div class="tp-caption sub-title color-white" id="slide-3049-layer-4"
+						data-x="['left','left','left','left']" data-hoffset="['37','37','37','37']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','0']"
+						data-fontsize="['20',18','18','14']" data-lineheight="['30','28','28','24']"
+						data-fontweight="['400','400','400','400']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+						style="z-index: 17; white-space: nowrap;text-transform:left;font-size:x-small;">The security personnel are recruited after careful screening and testing. <br> On recruitment the staff is well trained in security systems, handling <br> of security equipment, fire-fighting and in-traffic control.
+					</div>
+
+					<a href="services.html" target="_self" class="tp-caption flat-button-slider bg-blue"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['36','36','36','36']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14','14','14','14']" data-width="['auto']" data-height="['auto']">Read More
+					</a><!-- END LAYER LINK -->
+
+					<a href="contact-us.html" target="_self" class="tp-caption flat-button-slider bg-transparent"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['205','205','205','205']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14',14','14','14']" data-width="['auto']" data-height="['auto']">Get in Touch
+					</a><!-- END LAYER LINK -->
+				</li>
+
+				<li data-index="rs-3050" data-transition="slideremovedown" data-slotamount="7" data-hideafterloop="0"
+					data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+					data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Ken Burns"
+					data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+					data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+					<!-- MAIN IMAGE -->
+					<img src="images/slides/1.jpg" alt="" data-bgposition="center center" data-kenburns="off"
+						data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+						data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
+						data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 12 -->
+					<div class="tp-caption title-slide color-white letter-spacing3px" id="slide-3049-layer-1"
+						data-x="['left','left','left','left']" data-hoffset="['39','39','39','39']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['-105','-77','-77','-77']"
+						data-fontsize="['55','52','45','35']" data-lineheight="['60','57','50','40']"
+						data-fontweight="['600','600','600','600']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[10,10,10,10]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]"
+						style="z-index: 16; white-space: nowrap;text-transform:left;color: rgb(29, 26, 26);">We specialise in <div style="color: orange;">Security guard</div>services &amp; training for <br> all industries.
+					</div>
+
+					<!-- LAYER NR. 13 -->
+					<div class="tp-caption sub-title color-white" id="slide-3049-layer-4"
+						data-x="['left','left','left','left']" data-hoffset="['37','37','37','37']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','0']"
+						data-fontsize="['20',18','18','14']" data-lineheight="['30','28','28','24']"
+						data-fontweight="['400','400','400','400']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+						style="z-index: 17; white-space: nowrap;text-transform:left;">
+					</div>
+
+					<a href="security_gaurd.html" target="_self" class="tp-caption flat-button-slider bg-blue"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['36','36','36','36']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14','14','14','14']" data-width="['auto']" data-height="['auto']">Read More
+					</a><!-- END LAYER LINK -->
+
+					<a href="contact-us.html" target="_self" class="tp-caption flat-button-slider bg-transparent"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['205','205','205','205']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14',14','14','14']" data-width="['auto']" data-height="['auto']">Get in Touch
+					</a><!-- END LAYER LINK -->
+				</li>
+
+				<li data-index="rs-3048" data-transition="slideremovedown" data-slotamount="7" data-hideafterloop="0"
+					data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+					data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Ken Burns"
+					data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+					data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+					<!-- MAIN IMAGE -->
+					<img src="images/slides/slide2.jpg" id="slide1" alt="" data-bgposition="center center" data-kenburns="off"
+						data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+						data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
+						data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 12 -->
+					<div class="tp-caption title-slide color-white letter-spacing3px" id="slide-3049-layer-1"
+						data-x="['left','left','left','left']" data-hoffset="['39','39','39','39']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['-105','-77','-77','-77']"
+						data-fontsize="['55','52','45','35']" data-lineheight="['60','57','50','40']"
+						data-fontweight="['600','600','600','600']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[10,10,10,10]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]"
+						style="z-index: 16; white-space: nowrap;text-transform:left;">We help businesses <div style="color: orange;"> innovate and
+							grow</div>
+					</div>
+
+					<!-- LAYER NR. 13 -->
+					<div class="tp-caption sub-title color-white" id="slide-3049-layer-4"
+						data-x="['left','left','left','left']" data-hoffset="['37','37','37','37']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','0']"
+						data-fontsize="['20',18','18','14']" data-lineheight="['30','28','28','24']"
+						data-fontweight="['400','400','400','400']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+						style="z-index: 17; white-space: nowrap;text-transform:left;">With over 10 years of experience
+						helping businesses to find<br>comprehensive solutions
+					</div>
+
+					<a href="about-us.html" target="_self" class="tp-caption flat-button-slider bg-blue"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['36','36','36','36']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14','14','14','14']" data-width="['auto']" data-height="['auto']">Our Company
+					</a><!-- END LAYER LINK -->
+
+					<a href="contact-us.html" target="_self" class="tp-caption flat-button-slider bg-transparent"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['205','205','205','205']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14',14','14','14']" data-width="['auto']" data-height="['auto']">Get in Touch
+					</a><!-- END LAYER LINK -->
+				</li>
+
+				<!-- Slide 3 -->
+				<li data-index="rs-3047" data-transition="slideremovedown" data-slotamount="7" data-hideafterloop="0"
+					data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+					data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Ken Burns"
+					data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+					data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+					<!-- MAIN IMAGE -->
+					<img src="images/slides/3.png" alt="" data-bgposition="center center" data-kenburns="off"
+						data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120"
+						data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
+						data-bgparallax="10" class="rev-slidebg" data-no-retina>
+					<!-- LAYERS -->
+
+					<!-- LAYER NR. 12 -->
+					<div class="tp-caption title-slide color-white letter-spacing3px" id="slide-3049-layer-1"
+						data-x="['left','left','left','left']" data-hoffset="['39','39','39','39']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['-105','-77','-77','-77']"
+						data-fontsize="['55','52','45','35']" data-lineheight="['60','57','50','40']"
+						data-fontweight="['600','600','600','600']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[10,10,10,10]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0" data-paddingleft="[0,0,0,0]"
+						style="z-index: 16; white-space: nowrap;text-transform:left;">Grow up your business
+						<div style="color:orange;"> More Secure</div>
+					</div>
+
+					<!-- LAYER NR. 13 -->
+					<div class="tp-caption sub-title color-white" id="slide-3049-layer-4"
+						data-x="['left','left','left','left']" data-hoffset="['37','37','37','37']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','0']"
+						data-fontsize="['20',18','18','14']" data-lineheight="['30','28','28','24']"
+						data-fontweight="['400','400','400','400']" data-width="none" data-height="none"
+						data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+						style="z-index: 17; white-space: nowrap;text-transform:left;">We strive to provide tailor-made security solutions that <div style="color: orange;"> meet your specific business requirements accurately.</div> 
+					</div>
+
+					<a href="about-us.html" target="_self" class="tp-caption flat-button-slider bg-blue"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['36','36','36','36']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14','14','14','14']" data-width="['auto']" data-height="['auto']">Our Company
+					</a><!-- END LAYER LINK -->
+
+					<a href="contact-us.html" target="_self" class="tp-caption flat-button-slider bg-transparent"
+						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+						data-x="['left','left','left','left']" data-hoffset="['205','205','205','205']"
+						data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+						data-fontsize="['14',14','14','14']" data-width="['auto']" data-height="['auto']">Get in Touch
+					</a><!-- END LAYER LINK -->
+				</li>
+			</ul>
+		</div>
+	</div><!-- END REVOLUTION SLIDER -->
+
+	<section class="flat-row pd-imagebox">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-section center">
+						<h2><b style="font-size: 1.2cm;color: rgba(5, 3, 114, 0.89);"><strong
+									style="color: rgb(253, 76, 6);">A True </strong>Market Leader</b></h2>
+					</div><!-- /.title-section -->
+				</div>
+			</div><!-- /.row -->
+
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="imagebox-item">
+						<div class="imagebox style1">
+							<div class="imagebox-image">
+								<img src="images/imagebox/001.jpg" alt="">
+							</div><!-- /.imagebox-image -->
+
+							<div class="imagebox-title">
+								<h3><a href="#" title="">Security Services</a></h3>
+							</div><!-- /.iamgebox-title -->
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									Leading security solutions provider in India offering the assurance of a safe and
+									secure workplace to businesses, governments and consumers.
+									<br><br>
+								</div>
+								<div class="imagebox-button">
+									<a href="services.html" title="">read more</a>
+								</div>
+							</div><!-- /.imagebox-content -->
+						</div><!-- /.imagebox -->
+					</div><!-- /.imagebox-item -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-4">
+					<div class="imagebox-item">
+						<div class="imagebox style1">
+							<div class="imagebox-image">
+								<img src="images/imagebox/002.jpg" alt="">
+							</div><!-- /.imagebox-image -->
+							<div class="imagebox-title">
+								<h3><a href="#" title="">Consultancy Services</a></h3>
+							</div><!-- /.imagebox-title -->
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									The ever increasing crime rate has made home security a task of paramount
+									importance. Whether you live alone or are staying with your family, neglecting the
+									security aspect...
+								</div>
+								<div class="imagebox-button">
+									<a href="Consultancy.html" title="">read more</a>
+								</div>
+							</div><!-- /.imagebox-content -->
+						</div><!-- /.imagebox -->
+					</div><!-- /.imagebox-item -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-4">
+					<div class="imagebox-item">
+						<div class="imagebox style1">
+							<div class="imagebox-image">
+								<img src="images/imagebox/003.jpg" alt="">
+							</div><!-- /.imagebox-image -->
+							<div class="imagebox-title">
+								<h3><a href="#" title="">Industry Security</a></h3>
+							</div><!-- /.imagebox-title -->
+							<div class="imagebox-content">
+								<div class="imagebox-desc">
+									A nation’s progress lies in the smooth &amp; efficient operations and security of
+									enterprises like steel &amp; heavy industries, food &amp; beverages, automobiles,
+									construction, engineering and chemicals.
+								</div>
+								<div class="imagebox-button">
+									<a href="Industry-Security.html" title="">learn more</a>
+								</div>
+							</div><!-- /.imagebox-content -->
+						</div><!-- /.imagebox -->
+					</div><!-- /.imagebox-item -->
+				</div><!-- /.col-md-4 -->
+
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.flat-row-imagebox -->
+
+
+	<!-- CAREER Paragraph -->
+	<section style="padding-bottom: 2cm;padding-top:2cm;background-color: ghostwhite;">
+		<div class="col-md-12">
+			<div class="title-section center">
+				<h2><b style="color: rgba(5, 3, 114, 0.89);font-size:1.2cm;">CAREER</b></h2>
+			</div><!-- /.title-section -->
+		</div>
+		<div class="container">
+			<p style="text-align: center;font-weight: 800;font-size: medium;">At the NAMRAH Group, we believe that human
+				resource is the most valuable asset of the company. We possess an
+				excellent blend of professionals from diverse backgrounds including senior managers from industry as
+				well as
+				ex-police and armed forces.
+				Being a rapidly growing enterprise, the NAMRAH Group is always looking for professionally qualified and
+				energetic individuals with the caliber to grow and excel under its Graduate Trainee Programme (GTO). The
+				Company offers a large number of employment opportunities in its management team for a variety of people
+				ranging from fresh graduates to experienced professionals from industry and the uniformed services. The
+				NAMRAH
+				Group provides excellent growth opportunities for a lifelong career. Many officers from this permanent
+				cadre
+				are in senior management positions today.</p>
+		</div>
+	</section>
+
+	<section class="flat-row flat-iconbox bg-theme" style="background-color: rgb(255, 226, 189);">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title-section left">
+						<h2><a href="services.html" style="color: rgb(0, 5, 73);">Our Services</a></h2>
+					</div><!-- /.title-section -->
+				</div>
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="iconbox-item">
+						<div class="iconbox style1">
+							<div class="box-header">
+								<div class="icon-rounded magic">
+
+								</div>
+								<div class="box-title">
+									<a href="security_gaurd.html" title="">Security Gaurds</a>
+								</div>
+							</div><!-- /.box-header -->
+							<div class="box-content">
+								We are providing the most Experiance, Reliable and Professional Security Gaurds.
+							</div><!-- /.box-content -->
+						</div><!-- /.iconbox -->
+					</div><!-- /.iconbox-item -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-4">
+					<div class="iconbox-item">
+						<div class="iconbox style1">
+							<div class="box-header">
+								<div class="icon-rounded artboard">
+
+								</div>
+								<div class="box-title">
+									<a href="Home-Management-Security.html" title="">Home Security</a>
+								</div>
+							</div><!-- /.box-header -->
+							<div class="box-content">
+								Home security includes both the security hardware placed on a property and individuals' personal security practices.
+							</div><!-- /.box-content -->
+						</div><!-- /.iconbox -->
+					</div><!-- /.iconbox-item -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-4">
+					<div class="iconbox-item">
+						<div class="iconbox style1">
+							<div class="box-header">
+								<div class="icon-rounded global">
+
+								</div>
+								<div class="box-title">
+									<a href="bank_atm_security.html" title="">BANK/ATM Security</a>
+								</div>
+							</div><!-- /.box-header -->
+							<div class="box-content">
+								Bank Security is one of the biggest concern when we talk about finantial security.
+							</div><!-- /.box-content -->
+						</div><!-- /.iconbox -->
+					</div><!-- /.iconbox-item -->
+				</div><!-- /.col-md-4 -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="height80"></div>
+				</div>
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="iconbox-item">
+						<div class="iconbox style1">
+							<div class="box-header">
+								<div class="icon-rounded ion-clipboard">
+
+								</div>
+								<div class="box-title">
+									<a href="Home-Management-Security.html" title="">Home Management Security</a>
+								</div>
+							</div><!-- /.box-header -->
+							<div class="box-content">
+								The ever increasing crime rate has made home security a task of paramount importance.
+							</div><!-- /.box-content -->
+						</div><!-- /.iconbox -->
+					</div><!-- /.iconbox-item -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-4">
+					<div class="iconbox-item">
+						<div class="iconbox style1">
+							<div class="box-header">
+								<div class="icon-rounded line-chart">
+
+								</div>
+								<div class="box-title">
+									<a href="Home-office-Keeping-Service.html" title="">Home-Office keeping Services</a>
+								</div>
+							</div><!-- /.box-header -->
+							<div class="box-content">
+								An untidy and unhygienic living space portrays a sloppy and unprofessional attitude.
+							</div><!-- /.box-content -->
+						</div><!-- /.iconbox -->
+					</div><!-- /.iconbox-item -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-4">
+					<div class="iconbox-item">
+						<div class="iconbox style1">
+							<div class="box-header">
+								<div class="icon-rounded clock">
+
+								</div>
+								<div class="box-title">
+									<a href="Industry-Security.html" title="">Industry Security</a>
+								</div>
+							</div><!-- /.box-header -->
+							<div class="box-content">
+								As crime rate soars, even commercial spaces are unsafe;
+							</div><!-- /.box-content -->
+						</div><!-- /.iconbox -->
+					</div><!-- /.iconbox-item -->
+				</div><!-- /.col-md-4 -->
+			</div><!-- /.row -->
+
+		</div><!-- /.container -->
+	</section><!-- /.flat-row-iconbox -->
+
+	<section class="flat-row flat-callback">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="text-block-callback">
+						<h2>Get a Call Back</h2>
+						<div class="text-callback-content">
+							If you need to speak to us about a general query fill
+							in the form below and we will call you back within
+							the same working day.
+						</div>
+					</div><!-- /.text-block-callback -->
+				</div><!-- /.col-md-4 -->
+
+				<div class="col-md-8">
+					<div class="flat-callback-form">
+						<form method="post" action="home-enquiry.php">
+							<div class="flat-field">
+								<div class="field-one-half">
+									<label>How can we help? *</label>
+									<select name="discuss" required>
+										<option value="Security Gaurds">Security Gaurds</option>
+										<option value="Bank/Atm Security">Bank/Atm Security</option>
+										<option value="Home Security Management">Home Security</option>
+										<option value="Consultancy">Consultancy</option>
+									</select>
+								</div><!-- /.field-one-half -->
+								<div class="field-one-half field-email">
+									<input type="email" name="email" placeholder="You Email" required>
+								</div><!-- /.field-one-half -->
+								<div class="clearfix"></div>
+							</div>
+							<div class="flat-field">
+								<div class="field-one-half field-phone">
+									<input type="text" pattern="[0-9]{10}" id="phone" name="phone"
+										placeholder="You phone number" required>
+								</div>
+								<div class="field-one-half field-submit">
+									<input type="submit" class="button-submit-field" name="Query" value="Submit Now">
+								</div>
+							</div><!-- /.flat-field -->
+						</form><!-- /.form -->
+					</div><!-- /.callback-form -->
+				</div><!-- /.col-md-8 -->
+
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.flat-callback -->
+	<!-- Carousel -->
+
+	<footer id="footer">
+		<div class="footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="widget-infomation">
+							<ul class="infomation-footer">
+								<li><i class="fa fa-envelope" aria-hidden="true"></i><a
+										href="mailto:support@namrah.in" title="">support@namrah.in</a></li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i><a href="#" title=""><a
+											href="tel:01141064637">01141064637</a> | <a href="tel:7838939124">7838939124</a></li>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i><a
+										href="https://www.google.com/maps/place/Namrah+Security+%26+Management/@28.532972,77.2686616,20z/data=!4m5!3m4!1s0x390ce3cfd1ac1c6f:0x623b10cde81c013b!8m2!3d28.5328051!4d77.2687852"
+										title="" target="_blank">585-A/6, 2nd Floor, GovindPuri,      KalkaJi, New Delhi-110019</a>
+								</li>
+							</ul><!-- /.infomation-footer -->
+						</div><!-- /.widget-infomation -->
+					</div><!-- /.col-md-12 -->
+				</div><!-- /.row -->
+				<div class="row widget-box">
+					<div class="col-md-4">
+						<h3 style=" font-size:20px; color:#fff; margin-bottom:10px; font-weight: bold;">Namrah Security
+							Management</h3>
+						<div class="widget widget-text">
+							<p>When we established Namrah Security Management, we had a vision to not just
+								succeed but make a mark in the industry. Today, within a short span of time we have come
+								a long way and have acquired an impressive clientele across the country.</p>
+						</div><!-- /.widget-text -->
+					</div><!-- /.col-md-4 -->
+					<div class="col-md-4">
+
+					</div><!-- /.col-md-4 -->
+					<div class="col-md-4">
+						<h3 style=" font-size:20px; color:#fff; margin-bottom:10px; font-weight: bold;">Resources Link
+						</h3>
+						<div class="widget widget-services">
+							<ul class="one-half">
+								<li><a href="about-us.html" title="">About Us</a></li>
+								<li><a href="Consultancy.html" title="">Consultancy</a></li>
+								<li><a href="contact-us.html" title="">Contact</a></li>
+							</ul><!-- /.one-half -->
+							<ul class="one-half">
+								<li><a href="services.html" title="">Services</a></li>
+								<li><a href="terms.html" title="">Terms & Conditions</a></li>
+								<li><a href="private_policy.html" title="">Privacy Policy</a></li>
+							</ul><!-- /.one-half -->
+						</div><!-- /.widget-services -->
+					</div><!-- /.col-md-4 -->
+
+				</div><!-- /.row .widget-box -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-widgets -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="copyright">
+							<p>Copyright © 2018 - 2022 Namrah Security Management Company, LLC. All Rights Reserved. |
+								<a href="private_policy.html" title="" style="color: orange;"> Private Policy</a>
+							</p>
+						</div>
+						<!-- /.menu-footer -->
+					</div>
+				</div>
+			</div>
+		</div><!-- /.footer-bottom -->
+	</footer><!-- /#footer -->
+
+	</div> <!-- /.boxed -->
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="javascript/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+	<script type="text/javascript" src="javascript/owl.carousel.js"></script>
+	<script type="text/javascript" src="javascript/jquery.easing.js"></script>
+	<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="javascript/waypoints.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+	<script type="text/javascript" src="javascript/jquery-validate.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+
+
+	<!-- Revolution Slider -->
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="revolution/js/slider_v1.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script>
+		// Disabled Right click
+		window.oncontextmenu = function () {
+			console.log("Right Click Disabled");
+			window.alert("Right Click Disabled..")
+			return false;
+		}
+		// Javascript for initial popup
+		function myFunction() {
+			var x = document.getElementById("snackbar");
+			x.className = "show";
+			setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+		}
+		window.onload = myFunction();
+	</script>
+
+	<!-- External js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+		integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
